@@ -1,0 +1,28 @@
+body {
+    min-width: 500px;
+    background: #000000;  /* for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #3C0000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #3C0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  nav a:hover {
+    background-color: white;
+    color: black;
+  }
